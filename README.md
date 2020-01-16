@@ -204,5 +204,7 @@ If this causes problems for you, you may want to try changing your terminal's co
 # ewlpa-lyme-patient-app
 Test
 
-[lyme.pdf](https://github.com/davila23/Lyme-Patient/files/4072269/lyme.pdf)
-[Lyme Patient - User Documentation for demo version.pdf](https://github.com/davila23/Lyme-Patient/files/4072270/Lyme.Patient.-.User.Documentation.for.demo.version.pdf)
+Documentation : [lyme.pdf](https://github.com/davila23/Lyme-Patient/files/4072269/lyme.pdf)
+
+
+Demo : [Lyme Patient - User Documentation for demo version.pdf](https://github.com/davila23/Lyme-Patient/files/4072270/Lyme.Patient.-.User.Documentation.for.demo.version.pdf)
