@@ -1,0 +1,19 @@
+{
+	"ProjectName": "aws-lyme-patient-app",
+	"ProjectPath": "/Users/danielavila/aws-lyme-patient-app",
+	"InitializationTime": "2018-07-20-11-02-27",
+	"LastConfigurationTime": "",
+	"LastNPMInstallTime": "",
+	"FrontendLastBuildTime": "",
+	"LastPublishTime": "",
+	"BackendLastSyncTime": "2018-07-20-11-07-18",
+	"BackendLastSyncToDevTime": "2018-07-20-11-07-19",
+	"BackendLastBuildTime": "",
+	"BackendLastPushTime": "",
+	"BackendProjectID": "840cbc1b-a7a6-491e-bf31-09e49597187e",
+	"BackendProjectName": "aws-lyme-patient-app-2018-07-20-11-02-27",
+	"BackendProjectConsoleUrl": "https://console.aws.amazon.com/mobilehub/home#/840cbc1b-a7a6-491e-bf31-09e49597187e/build",
+	"BackendProjectCreationTime": "2018-07-20T14:04:36.699Z",
+	"BackendProjectLastUpdatedTime": "2018-07-20T14:05:10.875Z",
+	"Framework": "react-native"
+}

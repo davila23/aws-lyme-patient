@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/danielavila/aws-lyme-patient-app/node_modules/react-native/Libraries/Image/RCTImageLoader.m \
+  /Users/danielavila/aws-lyme-patient-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/danielavila/aws-lyme-patient-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/danielavila/aws-lyme-patient-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/danielavila/aws-lyme-patient-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/danielavila/aws-lyme-patient-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/danielavila/aws-lyme-patient-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/danielavila/aws-lyme-patient-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/danielavila/aws-lyme-patient-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/danielavila/aws-lyme-patient-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/danielavila/aws-lyme-patient-app/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/danielavila/aws-lyme-patient-app/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/danielavila/aws-lyme-patient-app/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/danielavila/aws-lyme-patient-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTImageLoader.h \
+  /Users/danielavila/aws-lyme-patient-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/danielavila/aws-lyme-patient-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/danielavila/aws-lyme-patient-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/danielavila/aws-lyme-patient-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/danielavila/aws-lyme-patient-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/danielavila/aws-lyme-patient-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/danielavila/aws-lyme-patient-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTResizeMode.h \
+  /Users/danielavila/aws-lyme-patient-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTURLRequestHandler.h \
+  /Users/danielavila/aws-lyme-patient-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTURLRequestDelegate.h \
+  /Users/danielavila/aws-lyme-patient-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTNetworking.h \
+  /Users/danielavila/aws-lyme-patient-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h \
+  /Users/danielavila/aws-lyme-patient-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTNetworkTask.h \
+  /Users/danielavila/aws-lyme-patient-app/node_modules/react-native/Libraries/Image/RCTImageCache.h \
+  /Users/danielavila/aws-lyme-patient-app/node_modules/react-native/Libraries/Image/RCTImageUtils.h

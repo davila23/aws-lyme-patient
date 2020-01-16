@@ -1,0 +1,165 @@
+{
+	"name": "ewlpa-lyme-patient-app-2018-07-19-19-11-34",
+	"projectId": "6db66456-ebb7-493b-b2ab-f9a9b72f5d1d",
+	"region": "us-west-1",
+	"state": "NORMAL",
+	"createdDate": "2018-07-19T22:11:45.705Z",
+	"lastUpdatedDate": "2018-07-19T22:12:14.796Z",
+	"consoleUrl": "https://console.aws.amazon.com/mobilehub/home#/6db66456-ebb7-493b-b2ab-f9a9b72f5d1d/build",
+	"resources": [
+		{
+			"type": "AWS::Pinpoint::AnalyticsApplication",
+			"name": "ewlpalymepatientapp20180719191134_MobileHub",
+			"arn": "e8d4894c401e457b8903796d92c6a7d5",
+			"feature": "analytics",
+			"attributes": {
+				"lastUpdateRequestID": "8e31d6c4-a6bc-4e79-ac00-3b133a049bd5"
+			}
+		},
+		{
+			"type": "AWS::IAM::Policy",
+			"name": "ewlpalymepatientapp_mobileanalytics_MOBILEHUB_513083560",
+			"arn": null,
+			"feature": "analytics",
+			"attributes": {
+				"authType": "authenticated",
+				"lastUpdateRequestID": "8e31d6c4-a6bc-4e79-ac00-3b133a049bd5",
+				"role": "ewlpalymepatientapp_auth_MOBILEHUB_513083560"
+			}
+		},
+		{
+			"type": "AWS::IAM::Policy",
+			"name": "ewlpalymepatientapp_mobileanalytics_MOBILEHUB_513083560",
+			"arn": null,
+			"feature": "analytics",
+			"attributes": {
+				"authType": "unauthenticated",
+				"lastUpdateRequestID": "8e31d6c4-a6bc-4e79-ac00-3b133a049bd5",
+				"role": "ewlpalymepatientapp_unauth_MOBILEHUB_513083560"
+			}
+		},
+		{
+			"type": "AWS::Cognito::IdentityPool",
+			"name": "ewlpalymepatientapp_MOBILEHUB_513083560",
+			"arn": "us-west-2:b2530b88-618a-4585-9fa1-93ff462fd9f4",
+			"feature": "user-signin",
+			"attributes": {
+				"lastUpdateRequestID": "8e31d6c4-a6bc-4e79-ac00-3b133a049bd5",
+				"poolid": "us-west-2:b2530b88-618a-4585-9fa1-93ff462fd9f4",
+				"roleARNs": "arn:aws:iam::525694381595:role/ewlpalymepatientapp_auth_MOBILEHUB_513083560,arn:aws:iam::525694381595:role/ewlpalymepatientapp_unauth_MOBILEHUB_513083560"
+			}
+		},
+		{
+			"type": "AWS::IAM::Role",
+			"name": "ewlpalymepatientapp_smsverification_MOBILEHUB_513083560",
+			"arn": "arn:aws:iam::525694381595:role/service-role/ewlpalymepatientapp_smsverification_MOBILEHUB_513083560",
+			"feature": "user-signin",
+			"attributes": {
+				"lastUpdateRequestID": "8e31d6c4-a6bc-4e79-ac00-3b133a049bd5",
+				"user-pools-role-key": "user-pools-execution-role"
+			}
+		},
+		{
+			"type": "AWS::Cognito::UserPool",
+			"name": "ewlpalymepatientapp_userpool_MOBILEHUB_513083560",
+			"arn": "us-west-2_3btuLcQyx",
+			"feature": "user-signin",
+			"attributes": {
+				"alias-attributes": "[\"email\",\"phone_number\"]",
+				"lastUpdateRequestID": "8e31d6c4-a6bc-4e79-ac00-3b133a049bd5",
+				"mfa-configuration": "ON",
+				"password-policy": "{\"minimumLength\":8,\"requireUppercase\":true,\"requireLowercase\":true,\"requireNumbers\":true,\"requireSymbols\":true}",
+				"region": "us-west-2",
+				"user-pools-client-id": "...redacted_1034661124...",
+				"user-pools-client-secret": "...redacted_652268699...",
+				"user-pools-id": "us-west-2_3btuLcQyx",
+				"user-pools-web-client-id": "49hocnstkh9hdt3c5dh5ve5vij"
+			}
+		},
+		{
+			"type": "AWS::IAM::Role",
+			"name": "ewlpalymepatientapp_auth_MOBILEHUB_513083560",
+			"arn": "arn:aws:iam::525694381595:role/ewlpalymepatientapp_auth_MOBILEHUB_513083560",
+			"feature": "user-signin",
+			"attributes": {
+				"authType": "authenticated",
+				"lastUpdateRequestID": "8e31d6c4-a6bc-4e79-ac00-3b133a049bd5"
+			}
+		},
+		{
+			"type": "AWS::IAM::Role",
+			"name": "ewlpalymepatientapp_unauth_MOBILEHUB_513083560",
+			"arn": "arn:aws:iam::525694381595:role/ewlpalymepatientapp_unauth_MOBILEHUB_513083560",
+			"feature": "user-signin",
+			"attributes": {
+				"authType": "unauthenticated",
+				"lastUpdateRequestID": "743a0e15-f6c8-4f56-a260-eb0d5600cae1"
+			}
+		},
+		{
+			"type": "AWS::S3::Bucket",
+			"name": "ewlpalymepatientapp-hosting-mobilehub-513083560",
+			"arn": null,
+			"feature": "hosting",
+			"attributes": {
+				"lastUpdateRequestID": "8e31d6c4-a6bc-4e79-ac00-3b133a049bd5",
+				"region": "us-west-1",
+				"s3-bucket-console-url": "https://s3.console.aws.amazon.com/s3/buckets/ewlpalymepatientapp-hosting-mobilehub-513083560",
+				"s3-bucket-website-url": "https://s3.amazonaws.com/ewlpalymepatientapp-hosting-mobilehub-513083560"
+			}
+		},
+		{
+			"type": "AWS::CloudFront::Distribution",
+			"name": "d2pjtyy4b1t3ut.cloudfront.net",
+			"arn": null,
+			"feature": "hosting",
+			"attributes": {
+				"id": "E3814AOQJCC6J0",
+				"lastUpdateRequestID": "8e31d6c4-a6bc-4e79-ac00-3b133a049bd5"
+			}
+		},
+		{
+			"type": "AWS::IAM::Policy",
+			"name": "ewlpalymepatientapp_hosting_MOBILEHUB_513083560",
+			"arn": null,
+			"feature": "hosting",
+			"attributes": {
+				"authType": "authenticated",
+				"lastUpdateRequestID": "8e31d6c4-a6bc-4e79-ac00-3b133a049bd5",
+				"role": "ewlpalymepatientapp_auth_MOBILEHUB_513083560"
+			}
+		},
+		{
+			"type": "AWS::IAM::Policy",
+			"name": "ewlpalymepatientapp_hosting_MOBILEHUB_513083560",
+			"arn": null,
+			"feature": "hosting",
+			"attributes": {
+				"authType": "unauthenticated",
+				"lastUpdateRequestID": "8e31d6c4-a6bc-4e79-ac00-3b133a049bd5",
+				"role": "ewlpalymepatientapp_unauth_MOBILEHUB_513083560"
+			}
+		},
+		{
+			"type": "AWS::S3::Bucket",
+			"name": "ewlpalymepatientapp-deployments-mobilehub-513083560",
+			"arn": null,
+			"feature": "common",
+			"attributes": {
+				"region": "us-west-1",
+				"s3-bucket-console-url": "https://s3.console.aws.amazon.com/s3/buckets/ewlpalymepatientapp-deployments-mobilehub-513083560"
+			}
+		},
+		{
+			"type": "AWS::CloudFormation::Stack",
+			"name": "Development",
+			"arn": null,
+			"feature": "cloud-api",
+			"attributes": {
+				"primary": "true",
+				"region": "us-west-1",
+				"stateSummary": "NOT_YET_DEPLOYED"
+			}
+		}
+	]
+}
