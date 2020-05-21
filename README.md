@@ -1,7 +1,7 @@
 
 
 
-# ewlpa-lyme-patient-app
+# LYME APP
 
 
 Documentation : [lyme.pdf](https://github.com/davila23/Lyme-Patient/files/4072269/lyme.pdf)
