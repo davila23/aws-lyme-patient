@@ -9,7 +9,7 @@ User Guide : [lyme.pdf](https://github.com/davila23/Lyme-Patient/files/4072269/l
 Demo : [Lyme Patient - User Documentation for demo version.pdf](https://github.com/davila23/Lyme-Patient/files/4072270/Lyme.Patient.-.User.Documentation.for.demo.version.pdf)
 
 
-## Images Mobil APP - React Native whith AWS Cognito to login
+## Images Mobil APP - React Native with AWS Cognito to login
 
 <img width="250" alt="Captura de Pantalla 2020-05-21 a la(s) 19 01 08" src="https://user-images.githubusercontent.com/50145471/82610935-c07be980-9b95-11ea-88f4-3bed91ae97fa.png">
 
