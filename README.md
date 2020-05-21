@@ -9,11 +9,23 @@ Documentation : [lyme.pdf](https://github.com/davila23/Lyme-Patient/files/407226
 Demo : [Lyme Patient - User Documentation for demo version.pdf](https://github.com/davila23/Lyme-Patient/files/4072270/Lyme.Patient.-.User.Documentation.for.demo.version.pdf)
 
 
+## Images Mobil APP - React Native whith AWS Cognito to login
+
+<img width="250" alt="Captura de Pantalla 2020-05-21 a la(s) 19 01 08" src="https://user-images.githubusercontent.com/50145471/82610935-c07be980-9b95-11ea-88f4-3bed91ae97fa.png">
+
+<img width="250" alt="Captura de Pantalla 2020-05-21 a la(s) 19 00 57" src="https://user-images.githubusercontent.com/50145471/82610936-c1148000-9b95-11ea-9ae5-44e7194fb93c.png">
+
+<img width="250" alt="Captura de Pantalla 2020-05-21 a la(s) 19 02 47" src="https://user-images.githubusercontent.com/50145471/82610927-be198f80-9b95-11ea-8db6-7df64384ebb7.png">
+
+<img width="250" alt="Captura de Pantalla 2020-05-21 a la(s) 19 02 16" src="https://user-images.githubusercontent.com/50145471/82610932-bfe35300-9b95-11ea-9fa5-ce19e0be97d0.png">
+
+<img width="250" alt="Captura de Pantalla 2020-05-21 a la(s) 19 02 26" src="https://user-images.githubusercontent.com/50145471/82610930-bf4abc80-9b95-11ea-8ef9-e9b36d4e849a.png">
+
+<img width="250" alt="Captura de Pantalla 2020-05-21 a la(s) 19 02 55" src="https://user-images.githubusercontent.com/50145471/82610920-b9ed7200-9b95-11ea-9a8f-76e9d59d9d25.png">
+
+<img width="250" alt="Captura de Pantalla 2020-05-21 a la(s) 19 02 38" src="https://user-images.githubusercontent.com/50145471/82610929-beb22600-9b95-11ea-951d-9c5161b08dab.png">
 
 
-This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
-
-Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
 
 ## Table of Contents
 
@@ -207,10 +219,5 @@ There are a few steps you may want to take to troubleshoot these kinds of errors
 2. Open Xcode's Preferences, the Locations tab, and make sure that the `Command Line Tools` menu option is set to something. Sometimes when the CLI tools are first installed by Homebrew this option is left blank, which can prevent Apple utilities from finding the simulator. Make sure to re-run `npm/yarn run ios` after doing so.
 3. If that doesn't work, open the Simulator, and under the app menu select `Reset Contents and Settings...`. After that has finished, quit the Simulator, and re-run `npm/yarn run ios`.
 
-### QR Code does not scan
 
-If you're not able to scan the QR code, make sure your phone's camera is focusing correctly, and also make sure that the contrast on the two colors in your terminal is high enough. For example, WebStorm's default themes may [not have enough contrast](https://github.com/react-community/create-react-native-app/issues/49) for terminal QR codes to be scannable with the system barcode scanners that the Expo app uses.
-
-
-=======
 
