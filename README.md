@@ -4,7 +4,7 @@
 # LYME APP
 
 
-Documentation : [lyme.pdf](https://github.com/davila23/Lyme-Patient/files/4072269/lyme.pdf)
+User Guide : [lyme.pdf](https://github.com/davila23/Lyme-Patient/files/4072269/lyme.pdf)
 
 Demo : [Lyme Patient - User Documentation for demo version.pdf](https://github.com/davila23/Lyme-Patient/files/4072270/Lyme.Patient.-.User.Documentation.for.demo.version.pdf)
 
